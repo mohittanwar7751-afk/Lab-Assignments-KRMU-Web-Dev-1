@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header with Navigation -->
+    <header>
+        <h1>Mohit Tanwar</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello! I am a web development student.This is my personal portfolio website.</p>
+    </section>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="My Profile Picture.jpeg" alt="Profile picture of Mohit" width="200" height="400">
+            <br>
+            <p>I am a web developer with a focus on front-end design and user experience.I enjoy learning new
+                technologies and working on meaningful projects.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <article>
+                        <h3>Project 1 : Portfolio Website</h3>
+                        <p>A personal one-page website to showcase your bio, skills, and contact details.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Project 2 : User Form</h3>
+                        <p>A form wepage with fields like name, email, and message for practicing form handling.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Project 3 : Table Content</h3>
+                        <p>An HTML table is a way to display data in rows and columns.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>Technical Skills</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio | Designed by Mohit Tanwar</p>
+    </footer>
+
+</body>
+
+</html>
